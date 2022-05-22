@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-item"><a class="nav-link" href="index.html">Home</a></div>
+      <div class="nav-item"><a class="nav-link" href="contact-me.html">Contact Me</a></div>
+      <div class="nav-item"><a class="nav-link" href="register.html">Register</a></div>
+      <div class="nav-item"><a class="nav-link" href="login.html">Login</a></div>
+      <div class="nav-item"><a class="nav-link" href="calculator.html">Calculator</a></div>
+    </div>
+  </nav>
+  <main>
+    <div class="form">
+      <h1 class="form-title">Contact Me</h1>
+      <form class="form-container">
+        <div>
+          <input type="text" placeholder="Name" required name="name" id="name">
+        </div>
+        <div>
+          <input type="email" required placeholder="Email" name="email" id="email">
+        </div>
+        <div>
+          <textarea name="message" id="message" placeholder="Message"></textarea>
+        </div>
+        <div>
+          <select name="priority" id="priority" required>
+            <option value="">Select Priority</option>
+            <option value="Not-Important">Not Important</option>
+            <option value="Important">Important</option>
+            <option value="Very-Important">Very Important</option>
+          </select>
+        </div>
+        <div>
+          <input type="submit" value="Contact Me">
+        </div>
+      </form>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>

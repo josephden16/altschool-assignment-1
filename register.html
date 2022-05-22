@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Register</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-item"><a class="nav-link" href="index.html">Home</a></div>
+      <div class="nav-item"><a class="nav-link" href="contact-me.html">Contact Me</a></div>
+      <div class="nav-item"><a class="nav-link" href="register.html">Register</a></div>
+      <div class="nav-item"><a class="nav-link" href="login.html">Login</a></div>
+      <div class="nav-item"><a class="nav-link" href="calculator.html">Calculator</a></div>
+    </div>
+  </nav>
+  <main>
+    <div class="form">
+      <h1 class="form-title">Register</h1>
+      <form class="form-container">
+        <div>
+          <input type="text" placeholder="First Name" required name="first-name" id="first-name">
+        </div>
+        <div>
+          <input type="text" placeholder="Last Name" required name="last-name" id="last-name">
+        </div>
+        <div>
+          <input type="tel" placeholder="Phone" required name="phone" id="phone">
+        </div>
+        <div>
+          <input type="email" required placeholder="Email" name="email" id="email">
+        </div>
+        <div>
+          <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div>
+          <input type="text" required placeholder="Country" name="country" id="country">
+        </div>
+        <div>
+          <input type="state-province" required placeholder="State/Province" name="state-province" id="state-province">
+        </div>
+        <div>
+          <input type="text" required placeholder="Username" name="username" id="username">
+        </div>
+        <div>
+          <input type="password" required placeholder="Password" name="password" id="password">
+        </div>
+        <div>
+          <input type="password" required placeholder="Confirm Password" name="confirm-password" id="confirm-password">
+        </div>
+        <div>
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>
